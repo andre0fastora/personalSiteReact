@@ -1,0 +1,7 @@
+#intro-div {
+  border: 2px solid black;
+  background-color: grey;
+  width: 80vw;
+  text-align: center;
+  margin: 1vh auto 1vh auto;
+}
