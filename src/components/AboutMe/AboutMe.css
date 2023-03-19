@@ -50,6 +50,7 @@
 @media screen and (max-width: 950px) {
   #about-me-container {
     flex-direction: column;
-    padding-top: 10vh;
+    padding: 10vh 2vw;
+    height: 110vh;
   }
 }

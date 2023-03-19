@@ -17,6 +17,7 @@
 #intro-page-div h2 {
   margin-left: 2vw;
   font-size: xxx-large;
+  padding: 1vh 1vw;
 }
 
 #name {
@@ -40,4 +41,11 @@
   color: red;
   transition: ease-in;
   transition-duration: 0.3s;
+}
+
+#text-and-img-div {
+  display: flex;
+}
+
+@media screen and (max-width: 950px) {
 }

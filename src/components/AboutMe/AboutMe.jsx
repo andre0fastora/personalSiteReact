@@ -16,6 +16,9 @@ const AboutMe = () => {
         <button
           onClick={() => {
             document.getElementById("projects-div").style.display = "inline";
+            document.getElementById(
+              ("about-me-container".style.display = "none")
+            );
           }}
         >
           See Projects

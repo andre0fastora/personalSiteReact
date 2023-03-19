@@ -12,7 +12,7 @@
 }
 
 #projects-div h1 {
-  margin-top: 30vh;
+  margin-top: 10vh;
   text-align: center;
 }
 #projects-div a {
@@ -23,9 +23,7 @@
 #project-card-holder {
   display: flex;
   justify-content: space-around;
-  margin-top: 10vh;
-  animation: fadeInDown;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 #project-card-div {
@@ -33,6 +31,8 @@
   box-shadow: 5px 5px 5px white;
   padding: 2vh 2vw;
   background-color: black;
+  height: max-content;
+  margin: 2vw;
 }
 
 #project-card-div p {
@@ -56,12 +56,19 @@
   transition-duration: 0.3s;
 }
 
+.project-img {
+  width: 75%;
+  height: 50%;
+}
+
 @media screen and (max-width: 950px) {
   #project-card-holder {
     flex-direction: column;
     padding-top: 10vh;
     justify-content: center;
     align-items: center;
+    animation: fadeInRight;
+    animation-duration: 1.5s;
   }
   #project-card-div {
     width: 80vw;
@@ -72,6 +79,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  #project-card-div p {
+    min-width: 50%;
   }
 
   #project-card-div :first-of-type {

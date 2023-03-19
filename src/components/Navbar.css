@@ -18,6 +18,11 @@ img {
   animation-duration: 1s;
 }
 
+#links {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 #links img {
   margin: 1vw;
   padding: 1vw;
@@ -31,4 +36,11 @@ img {
   background-color: #ffcf56;
   transition: ease-in;
   transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 950px) {
+  #links img {
+    height: 5vh;
+    width: 5vw;
+  }
 }
