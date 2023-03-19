@@ -1,13 +1,13 @@
 import React from "react";
-import { Navbar, Intro, ProjectList, TechStack } from "./";
+import { Navbar, IntroPage, AboutMe, Projects } from "./";
 
 const Main = () => {
   return (
     <div id="main">
+      <IntroPage />
+      <AboutMe />
+      <Projects />
       <Navbar />
-      <Intro />
-      <TechStack />
-      <ProjectList />
     </div>
   );
 };

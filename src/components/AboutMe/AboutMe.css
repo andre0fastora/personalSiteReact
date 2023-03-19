@@ -1,0 +1,55 @@
+#about-me-container {
+  display: none;
+  background-color: aliceblue;
+}
+
+#about-me-container {
+  background-color: #121619;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  animation: rollIn;
+  animation-duration: 2s;
+  height: 100vh;
+  width: 100vw;
+
+  justify-content: space-around;
+  align-items: center;
+}
+
+#about-me-container img {
+  margin-top: 8vh;
+  height: 60vh;
+  width: 60vw;
+  border-radius: 35px;
+  margin: 0 5vw;
+}
+
+#about-me-container p {
+  font-size: x-large;
+  margin-left: 1vw;
+}
+#about-me-container button {
+  font-size: x-large;
+  background-color: transparent;
+  border: none;
+  color: white;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+#about-me-container button:hover {
+  color: red;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 950px) {
+  #about-me-container {
+    flex-direction: column;
+    padding-top: 10vh;
+  }
+}

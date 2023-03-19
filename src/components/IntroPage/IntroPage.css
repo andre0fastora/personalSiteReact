@@ -1,0 +1,43 @@
+#intro-page-div {
+  background-color: #121619;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#intro-page-div h2:first-of-type {
+  margin-left: 2vw;
+  font-size: xxx-large;
+  margin-top: 10vh;
+}
+
+#intro-page-div h2 {
+  margin-left: 2vw;
+  font-size: xxx-large;
+}
+
+#name {
+  color: red;
+  animation: bounceInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+}
+
+#intro-page-div button {
+  margin-left: 80vw;
+  margin-top: 10vh;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: xx-large;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
+#intro-page-div button:hover {
+  color: red;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}

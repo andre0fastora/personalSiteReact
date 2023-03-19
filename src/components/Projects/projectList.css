@@ -1,9 +1,0 @@
-#project-list-div {
-  display: flex;
-  justify-content: space-between;
-  margin: 2vh 2vw 2vh 2vw;
-}
-
-h1 {
-  text-align: center;
-}

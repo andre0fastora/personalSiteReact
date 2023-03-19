@@ -1,17 +1,23 @@
 import React from "react";
-import "./projectCard.css";
 
 const ProjectCard = ({ project }) => {
   return (
     <div id="project-card-div">
-      <h3>{project.name}</h3>
+      <h2>{project.name}</h2>
       <p>{project.description}</p>
-      <a target="_blank" href={project.deployedLink}>
-        Link to Deployed Project
+      <a target={"_blank"} href={project.githubF}>
+        <p>Github Repo for Frontend</p>
       </a>
-      <br />
-      <a target={"_blank"} href={project.gitHubLink}>
-        Link to GitHub
+      <>
+        {project.githubB ? (
+          <a target={"_blank"} href={project.githubB}>
+            <p>Github Repo for BackEnd</p>
+          </a>
+        ) : null}
+      </>
+
+      <a target={"_blank"} href={project.deployed}>
+        <p>Deployed Project</p>
       </a>
     </div>
   );
