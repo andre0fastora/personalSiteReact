@@ -1,13 +1,13 @@
 import React from "react";
-import "./Navbar.css";
+import "./Footer.css";
+import gh from "../img/github-mark-white.png";
 
-const Navbar = () => {
+const Footer = () => {
   return (
-    <div id="navbar">
-      <h2> Andre Jacques Pujol</h2>
-      <div id="links">
+    <div id="footer">
+      <div id="footer-links">
         <a target="_blank" href="https://github.com/andre0fastora">
-          <img src="https://cdn.svgporn.com/logos/github-icon.svg"></img>
+          <img src={gh}></img>
         </a>
         <a target="_blank" href="https://www.linkedin.com/in/ajpujol/">
           <img src="https://cdn.svgporn.com/logos/linkedin-icon.svg"></img>
@@ -20,4 +20,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Footer;

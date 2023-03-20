@@ -52,14 +52,6 @@ const Projects = () => {
           return <ProjectCard project={project} />;
         })}
       </div>
-      <button
-        id="restartButton"
-        onClick={() => {
-          location.reload();
-        }}
-      >
-        Back to Start
-      </button>
     </div>
   );
 };

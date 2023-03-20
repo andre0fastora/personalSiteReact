@@ -15,6 +15,7 @@ const IntroPage = () => {
             <button
               onClick={() => {
                 document.getElementById("navbar").style.display = "flex";
+                document.getElementById("footer").style.display = "flex";
                 document.getElementById("about-me-container").style.display =
                   "flex";
                 document.getElementById("intro-page-div").style.display =

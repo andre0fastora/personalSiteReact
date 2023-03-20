@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, IntroPage, AboutMe, Projects } from "./";
+import { Navibar, IntroPage, AboutMe, Projects, Footer, ContactMe } from "./";
 
 const Main = () => {
   return (
@@ -7,7 +7,9 @@ const Main = () => {
       <IntroPage />
       <AboutMe />
       <Projects />
-      <Navbar />
+      <ContactMe />
+      <Navibar />
+      <Footer />
     </div>
   );
 };

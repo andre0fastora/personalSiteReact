@@ -13,16 +13,6 @@ const AboutMe = () => {
           Full Stack Academy's Web Development bootcamp in April 2023.
         </p>
         <img src={require("../../img/aiMe.jpg")}></img>
-        <button
-          onClick={() => {
-            document.getElementById("projects-div").style.display = "inline";
-            document.getElementById(
-              ("about-me-container".style.display = "none")
-            );
-          }}
-        >
-          See Projects
-        </button>
       </div>
     </>
   );

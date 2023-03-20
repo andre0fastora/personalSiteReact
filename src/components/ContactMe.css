@@ -1,0 +1,35 @@
+#contact-me-container {
+  display: none;
+  flex-direction: column;
+  background-color: #121619;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  animation: fadeInDown;
+  animation-duration: 2s;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-form {
+  flex-direction: column;
+  border: 2px solid white;
+  padding: 5vh;
+  box-shadow: 5px 5px 5px white;
+  background-color: black;
+  justify-content: space-around;
+}
+
+#contact-form label {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+#success-message {
+  display: none;
+  animation: bounceInRight;
+  animation-duration: 2s;
+}

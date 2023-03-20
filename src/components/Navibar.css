@@ -18,19 +18,23 @@ img {
   animation-duration: 1s;
 }
 
+#navbar h2 {
+  padding-left: 1vw;
+}
+
 #links {
   display: flex;
   flex-wrap: nowrap;
 }
 
-#links img {
+#links h2 {
   margin: 1vw;
   padding: 1vw;
   transition: ease-in;
   transition-duration: 0.3s;
 }
 
-#links img:hover {
+#links h2:hover {
   border: 2px solid black;
   border-radius: 10px;
   background-color: #ffcf56;
@@ -39,8 +43,14 @@ img {
 }
 
 @media screen and (max-width: 950px) {
-  #links img {
-    height: 5vh;
-    width: 5vw;
+  #links h2 {
+    height: 1vh;
+    width: 1vw;
+  }
+
+  #links {
+    flex-direction: column;
+    margin-right: 20vw;
+    margin-top: 10vh;
   }
 }
