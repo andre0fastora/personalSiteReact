@@ -46,12 +46,6 @@ const Navibar = () => {
         >
           Projects
         </h2>
-        <a
-          target="_blank"
-          href="https://docs.google.com/document/d/19ziRHmOG5-A5T_Odip1Y50CZiwr4YFPE8VLCd85C8-c/edit?usp=sharing"
-        >
-          <h2>Resume</h2>
-        </a>
         <h2
           onClick={() => {
             document.getElementById("contact-me-container").style.display =
@@ -66,6 +60,12 @@ const Navibar = () => {
         >
           Contact
         </h2>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/19ziRHmOG5-A5T_Odip1Y50CZiwr4YFPE8VLCd85C8-c/edit?usp=sharing"
+        >
+          <h2>Resume</h2>
+        </a>
       </div>
     </div>
   );

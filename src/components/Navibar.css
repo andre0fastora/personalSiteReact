@@ -48,9 +48,29 @@ img {
     width: 1vw;
   }
 
+  #links h2 {
+    font-size: small;
+    margin-right: 6vh;
+  }
+
+  #navbar {
+    justify-content: center;
+  }
+
+  #navbar h2 {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 400px) {
   #links {
     flex-direction: column;
-    margin-right: 20vw;
-    margin-top: 10vh;
+    padding-top: 5vh;
+  }
+  #links h2 {
+    padding-top: 2vh;
+  }
+  #navbar {
+    justify-content: space-between;
   }
 }

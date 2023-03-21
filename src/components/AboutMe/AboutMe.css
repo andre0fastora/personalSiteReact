@@ -51,6 +51,5 @@
   #about-me-container {
     flex-direction: column;
     padding: 10vh 2vw;
-    height: 110vh;
   }
 }
