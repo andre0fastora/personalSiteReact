@@ -30,6 +30,8 @@ img {
 #links h2 {
   margin: 1vw;
   padding: 1vw;
+  width: max-content;
+  height: max-content;
   transition: ease-in;
   transition-duration: 0.3s;
 }
@@ -44,8 +46,8 @@ img {
 
 @media screen and (max-width: 950px) {
   #links h2 {
-    height: 1vh;
-    width: 1vw;
+    height: max-content;
+    width: max-content;
   }
 
   #links h2 {
