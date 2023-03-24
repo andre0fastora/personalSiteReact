@@ -57,8 +57,8 @@
 }
 
 .project-img {
-  width: 75%;
-  height: 50%;
+  width: 20vw;
+  height: 10vw;
 }
 
 @media screen and (max-width: 950px) {
@@ -95,6 +95,10 @@
     justify-content: center;
     align-items: center;
   }
+
+  .project-img {
+    height: 40vh;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -130,5 +134,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .project-img {
+    height: 40vh;
   }
 }

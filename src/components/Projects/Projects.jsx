@@ -5,6 +5,7 @@ import "./Projects.css";
 import st from "../../img/StrangersThings.png";
 import jb from "../../img/JuiceBox.png";
 import ac from "../../img/arcade.png";
+import ft from "../../img/fitnessTrac.png";
 
 const projectsArr = [
   {
@@ -26,13 +27,13 @@ const projectsArr = [
     deployed: "https://ap-jp-juicebox.netlify.app",
   },
   {
-    name: "Arcade",
-    img: ac,
+    name: "Fitness Tracker",
+    img: ft,
     description:
-      "Solo project in vanilla JS, simple landing page with a couple of playable games such as tic tac toe and snake",
-    githubF: "https://github.com/andre0fastora/strangerthings",
-    githubB: "",
-    deployed: "https://andrepujol-strangers-things.netlify.app",
+      "Paired project, site for creating excercise routines that you can add various activities to. Backend built with express and PSQL. Front end built with React",
+    githubF: "https://github.com/cebacaro/FitnessTrac-FrontEnd",
+    githubB: "https://github.com/cebacaro/FitnessTrackr",
+    deployed: "https://ap-cb-fitness-trackr.netlify.app/",
   },
 ];
 
