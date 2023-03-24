@@ -30,6 +30,7 @@ export const ContactMe = () => {
 
   return (
     <div id="contact-me-container">
+      <h1>Contact Me</h1>
       <form id="contact-form" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />

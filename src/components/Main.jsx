@@ -1,5 +1,13 @@
 import React from "react";
-import { Navibar, IntroPage, AboutMe, Projects, Footer, ContactMe } from "./";
+import {
+  Resume,
+  Navibar,
+  IntroPage,
+  AboutMe,
+  Projects,
+  Footer,
+  ContactMe,
+} from "./";
 
 const Main = () => {
   return (
@@ -8,6 +16,7 @@ const Main = () => {
       <AboutMe />
       <Projects />
       <ContactMe />
+      <Resume />
       <Navibar />
       <Footer />
     </div>

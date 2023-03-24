@@ -32,6 +32,8 @@ img {
   padding: 1vw;
   transition: ease-in;
   transition-duration: 0.3s;
+  height: 5vh;
+  width: 5vh;
 }
 
 #footer-links img:hover {
@@ -43,8 +45,15 @@ img {
 }
 
 @media screen and (max-width: 950px) {
-  #footer-links img {
-    height: 5vh;
+  #footer-links img:first-of-type {
+    height: 4vh;
+    width: 5vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #footer-links img:first-of-type {
+    height: 2vh;
     width: 5vw;
   }
 }

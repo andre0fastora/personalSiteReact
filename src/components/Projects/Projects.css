@@ -96,3 +96,39 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  #project-card-holder {
+    flex-direction: column;
+    padding-top: 1vh;
+    padding-bottom: 20vh;
+    justify-content: center;
+    align-items: center;
+    animation: fadeInRight;
+    animation-duration: 1.5s;
+  }
+  #project-card-div {
+    width: 80vw;
+
+    padding: 2vh 2vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #project-card-div p,
+  #project-card-div a {
+    min-width: 80%;
+  }
+
+  #project-card-div :first-of-type {
+    width: 80vw;
+
+    padding: 2vh 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

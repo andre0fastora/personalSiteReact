@@ -8,3 +8,4 @@ export { default as AboutMe } from "./AboutMe/AboutMe.jsx";
 export { default as Projects } from "./Projects/Projects.jsx";
 export { default as ContactMe } from "./ContactMe";
 export { default as ProjectCard } from "./Projects/ProjectCard.jsx";
+export { default as Resume } from "./Resume";

@@ -1,0 +1,29 @@
+#resume-container {
+  display: none;
+  flex-direction: column;
+  background-color: #121619;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  animation: fadeInDown;
+  animation-duration: 2s;
+  justify-content: center;
+  align-items: center;
+
+  animation: bounceInRight;
+  animation-duration: 2s;
+}
+
+#resume {
+  height: 80vh;
+  width: 45vw;
+}
+
+@media screen and (max-width: 450px) {
+  #resume {
+    width: 90vw;
+  }
+}

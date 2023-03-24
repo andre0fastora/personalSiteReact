@@ -30,6 +30,7 @@
 
 #success-message {
   display: none;
+  width: 50vw;
   animation: bounceInRight;
   animation-duration: 2s;
 }
