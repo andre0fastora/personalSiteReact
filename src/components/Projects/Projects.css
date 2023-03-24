@@ -16,7 +16,7 @@
   text-align: center;
 }
 #projects-div a {
-  text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 
@@ -36,7 +36,7 @@
 }
 
 #project-card-div p {
-  max-width: 20vw;
+  /* max-width: 20vw; */
 }
 
 #restartButton {
@@ -64,7 +64,7 @@
 @media screen and (max-width: 950px) {
   #project-card-holder {
     flex-direction: column;
-    padding-top: 10vh;
+
     justify-content: center;
     align-items: center;
     animation: fadeInRight;
@@ -73,7 +73,7 @@
   #project-card-div {
     width: 80vw;
 
-    padding: 2vh 2vw;
+    padding: 0 2vw;
     margin-top: 5vh;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@
   #project-card-div :first-of-type {
     width: 80vw;
 
-    padding: 2vh 2vw;
+    padding: 0 2vw;
 
     display: flex;
     flex-direction: column;
@@ -98,6 +98,7 @@
 
   .project-img {
     height: 40vh;
+    padding: 2vh 2vw;
   }
 }
 
@@ -115,9 +116,6 @@
     width: 80vw;
 
     padding: 2vh 2vw;
-
-    display: flex;
-    flex-direction: column;
   }
 
   #project-card-div p,
@@ -125,11 +123,13 @@
     min-width: 80%;
   }
 
-  #project-card-div :first-of-type {
+  #project-card-div a {
+    text-decoration: underline;
+  }
+
+  #project-card-div:first-of-type {
     width: 80vw;
-
-    padding: 2vh 2vw;
-
+    padding: 0 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,5 +138,18 @@
 
   .project-img {
     height: 40vh;
+  }
+
+  #project-card-div {
+    justify-content: center;
+    align-items: center;
+  }
+
+  #project-card-div p {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
   }
 }

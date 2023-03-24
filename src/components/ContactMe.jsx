@@ -26,11 +26,12 @@ export const ContactMe = () => {
 
     document.getElementById("contact-form").style.display = "none";
     document.getElementById("success-message").style.display = "inline";
+    document.getElementById("contact-me-header").style.display = "none";
   };
 
   return (
     <div id="contact-me-container">
-      <h1>Contact Me</h1>
+      <h1 id="contact-me-header">Contact Me</h1>
       <form id="contact-form" ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />

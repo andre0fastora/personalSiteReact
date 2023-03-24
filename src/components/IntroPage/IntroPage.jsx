@@ -20,6 +20,7 @@ const IntroPage = () => {
                   "flex";
                 document.getElementById("intro-page-div").style.display =
                   "none";
+                document.getElementById("aboutMeNav").classList.add("isActive");
               }}
             >
               See More

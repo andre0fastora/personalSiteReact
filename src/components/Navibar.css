@@ -3,6 +3,10 @@ img {
   width: 3vw;
 }
 
+.isActive {
+  border-bottom: 2px solid #ffcf56;
+}
+
 #navbar {
   background-color: black;
   color: white;

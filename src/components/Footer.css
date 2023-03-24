@@ -49,11 +49,19 @@ img {
     height: 4vh;
     width: 5vw;
   }
+
+  #footer-links {
+    justify-content: space-between;
+  }
 }
 
 @media screen and (max-width: 500px) {
   #footer-links img:first-of-type {
-    height: 2vh;
-    width: 5vw;
+    height: 4vh;
+    width: 10vw;
+  }
+  #footer-links {
+    justify-content: space-between;
+    width: 60vw;
   }
 }
