@@ -6,16 +6,19 @@ import st from "../../img/StrangersThings.png";
 import jb from "../../img/JuiceBox.png";
 import ac from "../../img/arcade.png";
 import ft from "../../img/fitnessTrac.png";
+import auto from "../../img/ac.png";
 
 const projectsArr = [
   {
-    name: "Stranger's Things",
-    img: st,
+    name: "The Autonomous Collective",
+    img: auto,
     description:
-      "Paired project of a craigs list style site built in React using an API supplied by Full Stack Academy",
-    githubF: "https://github.com/andre0fastora/strangerthings",
-    githubB: "",
-    deployed: "https://andrepujol-strangers-things.netlify.app",
+      "Made with a group of 4. Full relational PSQL database, server powered by express. React front end. E-commerce site mock up with functioning register, login and  persistent cart between sessions and devices. Also has a fully flushed out Admin page to add products, adjust tags, and edit users. Styled with BootStrap.",
+    githubF:
+      "https://github.com/Autonomous-Collective/Autonomous-Collective-Client",
+    githubB:
+      "https://github.com/Autonomous-Collective/Autonomous-Collective-Backend",
+    deployed: "https://autonomous-collective.netlify.app",
   },
   {
     name: "Juice Box",
