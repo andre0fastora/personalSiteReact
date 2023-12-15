@@ -26,11 +26,7 @@ const projectsArr = [
 const Projects = () => {
   return (
     <div
-      // onAnimationEndCapture={() => {
-      //   document
-      //     .getElementById("project-card-holder")
-      //     .classList.add("animate__backInLeft");
-      // }}
+    
       id="projects-div"
     >
       <h1>Projects</h1>
