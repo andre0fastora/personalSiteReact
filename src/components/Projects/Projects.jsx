@@ -20,24 +20,7 @@ const projectsArr = [
       "https://github.com/Autonomous-Collective/Autonomous-Collective-Backend",
     deployed: "https://autonomous-collective.netlify.app",
   },
-  {
-    name: "Juice Box",
-    img: jb,
-    description:
-      "Paired project, tumbler styled web app built in React with a back end PSQL database and a server built in express",
-    githubF: "https://github.com/josie-p/juicebox-frontend",
-    githubB: "https://github.com/andre0fastora/juicebox",
-    deployed: "https://ap-jp-juicebox.netlify.app",
-  },
-  {
-    name: "Fitness Tracker",
-    img: ft,
-    description:
-      "Paired project, site for creating excercise routines that you can add various activities to. Backend built with express and PSQL. Front end built with React",
-    githubF: "https://github.com/cebacaro/FitnessTrac-FrontEnd",
-    githubB: "https://github.com/cebacaro/FitnessTrackr",
-    deployed: "https://ap-cb-fitness-trackr.netlify.app/",
-  },
+  
 ];
 
 const Projects = () => {
