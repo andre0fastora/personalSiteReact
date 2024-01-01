@@ -25,7 +25,7 @@ const projectsArr = [
     githubF:
       "https://github.com/andre0fastora/pokemonApp",
     
-    deployed: "ajppokemonteambuilder.netlify.app",
+    deployed: "https://ajppokemonteambuilder.netlify.app",
   },
   
 ];
