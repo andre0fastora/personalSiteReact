@@ -2,10 +2,7 @@ import React from "react";
 import { ProjectCard } from "../index";
 import "./Projects.css";
 
-import st from "../../img/StrangersThings.png";
-import jb from "../../img/JuiceBox.png";
-import ac from "../../img/arcade.png";
-import ft from "../../img/fitnessTrac.png";
+import poke from "../../img/Pokeball-1.png"
 import auto from "../../img/ac.png";
 
 const projectsArr = [
@@ -19,6 +16,16 @@ const projectsArr = [
     githubB:
       "https://github.com/Autonomous-Collective/Autonomous-Collective-Backend",
     deployed: "https://autonomous-collective.netlify.app",
+  },
+  {
+    name: "Pokemon Team Builder",
+    img: poke,
+    description:
+      "React App that connects to the PokeApi to pull stats for various pokemon and even build your own teams!",
+    githubF:
+      "https://github.com/andre0fastora/pokemonApp",
+    
+    deployed: "ajppokemonteambuilder.netlify.app",
   },
   
 ];
